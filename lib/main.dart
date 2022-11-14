@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(brightness: Brightness.dark),
       initialRoute: '/',
       routes: {
-        '/': (context) => const MyFirstScreen(),
+        '/': (context) => const FirstScreen(),
         '/Second': (context) => const MySecondScreen(),
       },
     );
